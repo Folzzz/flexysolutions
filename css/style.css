@@ -10,23 +10,14 @@
     box-sizing: border-box;
 }
 /* custom styling */
+html {
+    scroll-behavior: smooth;
+}
 
 html,
 body {
     height: 100%;
 }
-
-/* h1,h2,h3,h4,h5,h6 {
-    color: #333333;
-}
-
-
-h6 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: .8rem;
-    letter-spacing: .1rem;
-} */
 
 /* utilities styles */
 img {
@@ -47,16 +38,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-/* .blockquote {
-    font-size: 1.6rem;
-    color: #333;
-    border: none;
-    padding: 0;
-}
-
-.blockquote-footer {
-    margin: 1em 0 0;
-} */
 
 body {
     font-family: 'Open Sans', sans-serif;
