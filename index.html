@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- ====google fonts==== -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- ===font awesome=== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>FlexySolutions</title>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#startupNavBar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">FlexySolutions</a>
+        <div class="collapse navbar-collapse" id="startupNavBar">
+
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-danger" href="#">Contact Us</a>
+                </li>
+          </ul>
+          
+        </div>
+    </nav>
+
+    <div id="stage">
+        <div id="stage-caption">
+            <h1 class="display">Upgrade The Way You Buy and Sell Devices</h1>
+            <!-- <p>I see Startup.logo in ypur future</p> -->
+            <a href="./collection.html" class="btn btn-lg btn-danger mt-4 px-4">Shop Now</a>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <main class="mt-4">
+
+        <!-- Our services -->
+        <section id="feature-one" class="feature">
+
+            <h3 class="feature-title mb-2">Who We Are</h3>
+
+            <div class="container mt-4">
+                <div class="row">
+                    <p class="lead">
+                        At FlexySolutions Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi exercitationem nisi porro hic quasi. Eum, excepturi aspernatur reiciendis blanditiis dignissimos commodi inventore praesentium aperiam vel. Odio cumque aliquam illum nam!
+
+                    </p>
+                </div>
+
+                <h4 class="p-2">Our Services:</h4>
+                <div class="feature-one-service">
+                    
+                    <div class=" services p-4 shadow-sm">
+                        <h5 class="font-weight-bold">Gadget Sales <i class="fa fa-shopping-cart"></i></h5>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sequi quasi mollitia tenetur esse quisquam error placeat rem recusandae quas.
+
+                        </p>
+                    </div>
+                    <div class="services p-4 shadow-sm">
+                        <h5 class="font-weight-bold">Gadget Repairs <i class="fa fa-wrench"></i></h5>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum sequi quasi mollitia tenetur esse quisquam error placeat rem recusandae quas.
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section id="feature-two" class="feature">
+
+            <h3 class="feature-title mb-2">Available Products</h3>
+
+            <div class="container mt-4">
+
+                <div class="productfilter">
+                    <h6 class="text-center">Categories:</h6>
+                    <div id="collectionBtnContainer">
+                        <button class="btn-products" id="showAll" onclick="filterSelection('all')">All Products</button>
+                        <button class="btn-products" id="brandNew" onclick="filterSelection('brandNew')">Brand New</button>
+                        <button class="btn-products" id="ukUsed" onclick="filterSelection('ukUsed')">Uk Used</button>
+                        <button class="btn-products" id="iphones" onclick="filterSelection('iphones')">Iphones</button>
+                        <button class="btn-products" id="appleWatch" onclick="filterSelection('appleWatch')">Apple Watch</button>
+                        <button class="btn-products" id="samsung" onclick="filterSelection('samsung')">Samsung</button>
+                        <button class="btn-products" id="samsungEarbuds" onclick="filterSelection('samsungEarbuds')">Samsung Earbuds</button>
+                        <button class="btn-products" id="appleAirpods" onclick="filterSelection('appleAirpods')">Apple Airpods</button>
+                        <button class="btn-products" id="laptops" onclick="filterSelection('laptops')">Laptops</button>
+                    </div>
+                </div>
+
+                <div class="products-gallery mt-4">
+
+                    <div class="row">
+
+                        <div class="col-md-4 product-item brandNew iphones">
+                          <div class="card mb-4 shadow-sm">
+                            <img src="img/photo4.jpeg" alt="" class="img-fluid product-img">
+                            <div class="card-body">
+                              <p class="card-text text-center text-uppercase">Iphone 7 plus</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group product-selectbtn-div">
+                                  <a href="./product.html" class="btn btn-sm btn-outline-danger">Details <i class="fa fa-info-circle"></i></a>
+                                  <a href="https://wa.me/2348163117981?text=Hello%20I%27m%20interested%20in%20one%20of%20your%20products" class="btn btn-sm btn-outline-danger">Buy <i class="fa fa-shopping-bag"></i></a>
+                                </div>
+                                <small class="text-danger">N110,000</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 product-item samsung">
+                          <div class="card mb-4 shadow-sm">
+                            <img src="img/photo6.jpeg" alt="" class="img-fluid product-img">
+                            <div class="card-body">
+                              <p class="card-text text-center text-uppercase">Iphone 7 plus.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group product-selectbtn-div">
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Details <i class="fa fa-info-circle"></i></a>
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Buy <i class="fa fa-shopping-bag"></i></a>
+                                </div>
+                                <small class="text-danger">N110,000</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 product-item laptops">
+                          <div class="card mb-4 shadow-sm">
+                            <img src="img/photo5.jpeg" alt="" class="img-fluid product-img">
+                            <div class="card-body">
+                              <p class="card-text text-center text-uppercase">Iphone 7 plus.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group product-selectbtn-div">
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Details  <i class="fa fa-info-circle"></i></a>
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Buy <i class="fa fa-shopping-bag"></i></a>
+                                </div>
+                                <small class="text-danger">N110,000</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 product-item ukUsed samsungEarbuds">
+                          <div class="card mb-4 shadow-sm">
+                            <img src="img/photo4.jpeg" alt="" class="img-fluid product-img">
+                            <div class="card-body">
+                              <p class="card-text text-center text-uppercase">Iphone 7 plus</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group product-selectbtn-div">
+                                  <a href="./product.html" class="btn btn-sm btn-outline-danger">Details <i class="fa fa-info-circle"></i></a>
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Buy <i class="fa fa-shopping-bag"></i></a>
+                                </div>
+                                <small class="text-danger">N110,000</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 product-item brandNew appleWatch">
+                          <div class="card mb-4 shadow-sm">
+                            <img src="img/photo6.jpeg" alt="" class="img-fluid product-img">
+                            <div class="card-body">
+                              <p class="card-text text-center text-uppercase">Iphone 7 plus.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group product-selectbtn-div">
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Details <i class="fa fa-info-circle"></i></a>
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Buy <i class="fa fa-shopping-bag"></i></a>
+                                </div>
+                                <small class="text-danger">N110,000</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 product-item appleAirpods">
+                          <div class="card mb-4 shadow-sm">
+                            <img src="img/photo5.jpeg" alt="" class="img-fluid product-img">
+                            <div class="card-body">
+                              <p class="card-text text-center text-uppercase">Iphone 7 plus.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group product-selectbtn-div">
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Details  <i class="fa fa-info-circle"></i></a>
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Buy <i class="fa fa-shopping-bag"></i></a>
+                                </div>
+                                <small class="text-danger">N110,000</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 product-item brandNew laptops">
+                          <div class="card mb-4 shadow-sm">
+                            <img src="img/photo4.jpeg" alt="" class="img-fluid product-img">
+                            <div class="card-body">
+                              <p class="card-text text-center text-uppercase">Iphone 7 plus</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group product-selectbtn-div">
+                                  <a href="./product.html" class="btn btn-sm btn-outline-danger">Details <i class="fa fa-info-circle"></i></a>
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Buy <i class="fa fa-shopping-bag"></i></a>
+                                </div>
+                                <small class="text-danger">N110,000</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 product-item samsung">
+                          <div class="card mb-4 shadow-sm">
+                            <img src="img/photo6.jpeg" alt="" class="img-fluid product-img">
+                            <div class="card-body">
+                              <p class="card-text text-center text-uppercase">Iphone 7 plus.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group product-selectbtn-div">
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Details <i class="fa fa-info-circle"></i></a>
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Buy <i class="fa fa-shopping-bag"></i></a>
+                                </div>
+                                <small class="text-danger">N110,000</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 product-item laptops">
+                          <div class="card mb-4 shadow-sm">
+                            <img src="img/photo5.jpeg" alt="" class="img-fluid product-img">
+                            <div class="card-body">
+                              <p class="card-text text-center text-uppercase">Iphone 7 plus.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group product-selectbtn-div">
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Details  <i class="fa fa-info-circle"></i></a>
+                                  <a href="/" class="btn btn-sm btn-outline-danger">Buy <i class="fa fa-shopping-bag"></i></a>
+                                </div>
+                                <small class="text-danger">N110,000</small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                    </div>
+
+                    <div class="text-center">
+                        <a href="./collection.html" class="btn btn-danger">View More</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Learn More -->
+        <section id="feature-three" class="feature">
+
+            <div class="container">
+
+                <div>
+                    <h2 class="mb-2">Training</h2>
+                    <p>Do you want to learn how to repair gedgets, and the antics of sales?</p>
+                    <p>Click the button below</p>
+
+                    <div>
+                        <a href="mailto:olaniyanfoluso498@gmail.com" class="training-btn"> LEARN MORE</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Reviews -->
+        <section id="feature-four" class="feature">
+
+            <div class="container">
+                <div class="testimonial-container">
+                    <h2 class="mb-4">Reviews</h2>
+                    <div class="testimonial-wrapper">
+                        <div class="testimonials fade">
+                            <div class="testimonial-image-wrapper">
+                                <img src="img/photo2.jpeg" alt="" class="testimonial-image">
+                            </div>
+                            <div class="mb-sm testimonial-text">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit tenetur excepturi numquam similique aspernatur itaque.</p>
+                            </div>
+                            <div class="testimonial-rating">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                            </div>
+                        </div>
+
+                        <div class="testimonials fade">
+                            <div class="testimonial-image-wrapper">
+                                <img src="img/photo1.jpeg" alt="" class="testimonial-image">
+                            </div>
+                            <div class="mb-sm testimonial-text">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit tenetur excepturi numquam similique aspernatur itaque.</p>
+                            </div>
+                            <div class="testimonial-rating">
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star checked"></span>
+                                <span class="fas fa-star"></span>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="testimonial-counter-wrapper">
+                            <span class="testimonial-counter"></span>
+                            <span class="testimonial-counter"></span>
+                        </div>
+                    </div>
+                    <!-- <div class="testimonial-counter-wrapper">
+                        <span class="testimonial-counter"></span>
+                        <span class="testimonial-counter"></span>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact us -->
+        <section id="feature-five" class="feature">
+
+            <h3 class="feature-title mb-2">Get In Touch</h3>
+
+            <div class="container">
+                <div class="row mt-4">
+                    <div class="col-md-4 text-center p-2">
+                        <div>
+                            <i class="fa fa-address-card contact-icon"></i>
+                        </div>
+                        <h6>ADDRESS</h6>
+                        <address>171, Ishaga road, idi-araba, Lagos, Nigeria.
+                        </address>
+                    </div>
+                    <div class="col-md-4 text-center p-2">
+                        <div>
+                            <i class="fa fa-envelope contact-icon"></i>
+                        </div>
+                        <h6>EMAIL</h6>
+                        <p>olaniyanfoluso@gmail.com</p>
+                    </div>
+                    <div class="col-md-4 text-center p-2">
+                        <div>
+                            <i class="fa fa-phone contact-icon"></i>
+                        </div>
+                        <h6>PHONE NUMBER</h6>
+                        <p>+234 8163 117 981</p>
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <h5 class="py-2">Questions and Suggestions...? Send us a message</h5>
+
+                    <form action="./contactForm.php" method="POST" name="contact">
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">Name</label>
+                          <input type="name" class="form-control" name="name" id="exampleFormControlInput1" placeholder="your name" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput2">Email address</label>
+                          <input type="email" class="form-control" name="email" id="exampleFormControlInput2" placeholder="name@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Message</label>
+                          <textarea class="form-control" name="textarea" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-danger mb-2" name="submit">Send Message</button>
+
+                      </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <footer id="main-footer">
+        
+            <div class="px-4">
+                <div class="row py-4">
+                    <div class="col-md-4">
+                      <p>FlexySolutions</p>
+                      <p>What we do abit more<a href="#">...</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 class="footer-link-heading">Page Links</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"><a href="">Home</a></li>
+                            <li class="py-2"><a href="">What we do</a></li>
+                            <li class="py-2"><a href="">About</a></li>
+                            <li class="py-2"><a href="">Latest</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 class="footer-link-heading">Social Links</h6>
+                        <ul class="list-unstyled">
+                            <li class="py-2"><a href="">facebook</a></li>
+                            <li class="py-2"><a href="">twitter</a></li>
+                            <li class="py-2"><a href="">youtube</a></li>
+                            <li class="py-2"><a href="">linkedin</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 d-none d-md-block">
+                        <p>
+                            <a href="/">Back to top <i class="fa fa-arrow-up"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <p class="text-center py-1">
+                    &copy; 2020 <span class="text-danger">FLEXYSOLUTIONS</span> All rights reserved. Site by Folu
+                </p>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- custom js -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
