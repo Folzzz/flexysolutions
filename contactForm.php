@@ -16,7 +16,7 @@
         mail($mailTo, $customTxt, $headers);
 
         // function that takes us back to the homepage when message is sent
-        header("Location: index.html?mailsent");
+        // header("Location: index.html?mailsent");
     }
     
 ?>
