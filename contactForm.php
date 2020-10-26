@@ -16,7 +16,27 @@
         mail($mailTo, $customTxt, $headers);
 
         // function that takes us back to the homepage when message is sent
-        // header("Location: index.html?mailsent");
+        header("Location: index.html");
     }
     
 ?>
+
+<!-- <?php
+
+    // $name =$_POST['name'];
+    // $visitorEmail = $_POST['email'];
+    // $message = $_POST['message'];
+
+    // $siteMail = "flexysolutions@gmail.com"
+    // $mailTo = "folzzz@zohomail.com";
+    // $customSubject = "You have received a new email submission";
+
+    // $mailBody = "User Name: $name.\n". "User Email: $visitorEmail.\n". "User Message: $message.\n";
+
+    // $headers = "From: .$siteMail \r\n";
+
+    // $headers .= "Reply-To: $visitorEmail \r\n";
+
+    
+
+?> -->
